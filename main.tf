@@ -4,7 +4,7 @@ provider "aws" {
 
 resource "aws_instance" "app" {
   instance_type     = "${var.instance_type}"
-  availability_zone = "${var.az}"
+  availability_zone = "${var.zone}"
   ami               = "ami-0c55b159cbfafe1f0"
 }
 
