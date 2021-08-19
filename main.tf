@@ -7,9 +7,10 @@ resource "aws_instance" "app" {
   availability_zone = "${var.zone}"
   ami               = "ami-0c55b159cbfafe1f0"
   
-  #tags = {
-    #Name = "Department, Billable"
-  #}
+  tags = {
+    Department = Finance
+    Billable = Finance
+  }
  
 }
 
