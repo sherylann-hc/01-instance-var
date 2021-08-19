@@ -9,7 +9,7 @@ resource "aws_instance" "app" {
 }
 
 
-#  tags = {
-#     Name = "app-${count.index}"
-#  }
-#}
+ tags = {
+Name = "app-${count.index}"
+ }
+}
