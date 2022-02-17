@@ -10,5 +10,10 @@ variable "zone" {
 
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t2.micro"
+  default     = "t2.medium"
+}
+
+variable "instance_count" {
+  description = "Specifies number of instances to create."
+  default = 3
 }
