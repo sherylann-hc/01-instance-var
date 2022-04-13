@@ -10,7 +10,7 @@ variable "zone" {
 
 variable "instance_type" {
   description = "Specifies the AWS instance type."
-  default     = "t2.medium"
+  default     = "t2.large"
 }
 
 variable "instance_count" {
