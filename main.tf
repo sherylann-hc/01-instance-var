@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_instance" "app" {
   instance_type     = "${var.instance_type}"
   availability_zone = "${var.zone}"
-  ami               = "ami-0c55b159cbfafe1f0"
+  ami               = "ami-0acb5e61d5d7b19c8"
   count = var.instance_count
   
   /*tags = {
