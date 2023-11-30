@@ -8,10 +8,10 @@ resource "aws_instance" "app" {
   ami               = "ami-0acb5e61d5d7b19c8"
   count = var.instance_count
   
-  /*tags = {
+  tags = {
     Department = "Finance"
     Billable = "Finance"
-  }*/
+  }
  
 }
 
